@@ -1,0 +1,15 @@
+# Altium files are binary: no diff, no merge
+*.PrjPcb    binary
+*.SchDoc    binary
+*.PcbDoc    binary
+*.SchLib    binary
+*.PcbLib    binary
+*.IntLib    binary
+*.OutJob    binary
+*.step      binary
+*.STEP      binary
+
+# Fab outputs
+*.gbr       binary
+*.zip       binary
+*.pdf       binary

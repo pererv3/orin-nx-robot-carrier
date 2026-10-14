@@ -1,0 +1,34 @@
+# NVIDIA reference documents (licensed, keep local)
+reference/*
+!reference/.gitkeep
+
+# Altium generated / local files
+History/
+__Previews/
+Project Logs for */
+Project Outputs for */
+*.PrjPcbStructure
+*.PrjPCBStructure
+*.SchDocPreview
+*.PcbDocPreview
+*.LibPkg.Bak
+*.~*
+*.Dsn.Bak
+*.bak
+*.BAK
+.~lock*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Firmware build output
+build/
+*.o
+*.elf
+*.hex
+*.bin
+!hardware/outputs/**
